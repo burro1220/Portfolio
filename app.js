@@ -3,9 +3,6 @@ const app = express();
 
 app.set('view engine', 'pug');
 
-const bodyParser = require('body-parser');
-app.use(bodyParser.json());
-
 app.use('/static', express.static('public'));
 
 const mainRoutes = require('./routes');
