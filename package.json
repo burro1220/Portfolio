@@ -1,0 +1,24 @@
+{
+  "name": "project-06",
+  "version": "1.0.0",
+  "description": "Treehouse Project-06\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[DPortfolio ",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b\u001b[3~\u001b[3~app.js\u001b[3~\u001b[3~\u001b[C\u001b\u001b[3~",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burro1220/Project-06.git"
+  },
+  "author": "Blake Burroughs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/burro1220/Project-06/issues"
+  },
+  "homepage": "https://github.com/burro1220/Project-06#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}

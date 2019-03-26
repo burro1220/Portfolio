@@ -1,0 +1,93 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "project_name": "Random Quote Generator",
+            "description": "The Random Quote Generator is a basic display of JavaScript syntax and data structures that utilizes a preformatted HTML template with CSS to render a random quote from a provided array of quotes. The quotes will change at a predetermined interval, and custom CSS styles and jQuery animations have been added to give the project a bit of cutom flair.",
+            "technologies": [
+                "HyperTextMarkupLanguage (HTML)",
+                "Cascading Style Sheets (CSS)",
+                "Javascript (JS)",
+                "jQuery Javascript Library"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "../images/550X550",
+                "../images/1200X550",
+                ""
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "Dynamic List Pagination and Filtering",
+            "description": "In this project, I enhanced the usability of a web page that is displaying too much information at once using /'plain vanilla/' JavaScript. Long lists don/'t make for a good user experience. To make it easier for the user to find information and read the page, I added a popular web development technique known as /'pagination/'. All improvements adhere to /'progressive enhancement/'. This means that the page is not dependent on the JavaScript added, and all functionality is present to a user with JavaScript disabled in their browser. The solution is dynamic, and works with a list of any number of students. As a bonus, a search input field is dynamically added, giving the user the ability to filter users by name. Pagination dynamically changes the number of appended links dependent upon the number of pages needed to show the results. Finally, custom CSS rules have been added to give my project a personal flair.",
+            "technologies": [
+                "HyperTextMarkupLanguage (HTML)",
+                "Cascading Style Sheets (CSS)",
+                "Javascript (JS)"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "../images/550X550",
+                "../images/1200X550",
+                "../images/1200X550"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "Interactive Form using Regex Validation",
+            "description": "",
+            "technologies": [
+                "HyperTextMarkupLanguage (HTML)",
+                "Cascading Style Sheets (CSS)",
+                "Javascript (JS)",
+                "jQuery Javascript Library"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "",
+                "",
+                ""
+            ] 
+        },
+        {
+            "id": 4,
+            "project_name": "Random Quote Generator",
+            "description": "",
+            "technologies": [
+                "HyperTextMarkupLanguage (HTML)",
+                "Cascading Style Sheets (CSS)",
+                "Javascript (JS)",
+                "jQuery Javascript Library"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "",
+                "",
+                ""
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "Random Quote Generator",
+            "description": "",
+            "technologies": [
+                "HyperTextMarkupLanguage (HTML)",
+                "Cascading Style Sheets (CSS)",
+                "Javascript (JS)",
+                "jQuery Javascript Library"
+            ],
+            "live_link": "",
+            "github_link": "",
+            "image_urls": [
+                "",
+                "",
+                ""
+            ]
+        }
+    ]
+}
