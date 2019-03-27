@@ -8,7 +8,7 @@ block content
       h1 Project Portfolio
 
       //- Add a description for your portfolio, what this project is, it's purpose, what it's suppossed to accomplish, etc. 
-      p.lead.text-light
+      p.lead
         | A short list of my work
   article.grid-container.portfolio-index
     
@@ -19,9 +19,10 @@ block content
       //- Use a combination of interpolation and template literals as needed to dynamically generate the the routes in the href, as well as the img's src and the projects title.
       
       //- Here's what the Pug for each project example should look like. 
-      
-      .cell
-        a(href='#')
-          img.thumbnail(src=projects[0].image_urls[0])
-          h5= projects[0].project_name
+      for project in projects
+        div.cell
+          a(href='/project/' + project.id)
+            img.thumbnail(src=project.image_urls[0])
+            h5= project.project_name
+
       

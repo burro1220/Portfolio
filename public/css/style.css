@@ -1,8 +1,15 @@
 
+body {
+  background-color: #c1dfea;
+}
+
 h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
-
+h1 {
+  border-bottom: 2px dashed #333333;
+  text-shadow: 2px 2px 2px slategray;
+}
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
@@ -114,6 +121,8 @@ a:hover{
 
   .portfolio-index .thumbnail{
     margin-bottom: 5px;
+    box-shadow: 2px 2px 2px gray;
+    border-radius: 5px;
   }
 
   .portfolio-index a{
@@ -126,6 +135,7 @@ a:hover{
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      text-shadow: 2px 2px 2px darkgray;
     }
 
 .portfolio-meta{
@@ -137,6 +147,7 @@ a:hover{
   }
 
 .portfolio-project p{
+  font-size: 1.2em;
   border: none;
 }
 
@@ -147,4 +158,10 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+#footer p {
+  text-align: right;
+  padding-right: 25px;
+  font-size: .75em;
+  
 }
