@@ -1,6 +1,9 @@
 extends layout
 
 block content
-   h1 Error = #{message}
-   h2 Status Code = #{error.statusCode}
-   pre #{error.stack}
+  div.error
+    h1 Error = #{message}
+    h2 Status Code = #{error.statusCode}
+    pre #{error.stack}
+    p
+      a(href='/') ← Home

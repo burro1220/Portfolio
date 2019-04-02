@@ -3,7 +3,10 @@
         {
             "id": 0,
             "project_name": "Random Quote Generator",
-            "description": "The Random Quote Generator is a basic display of JavaScript syntax and data structures that utilizes a preformatted HTML template with CSS to render a random quote from a provided array of quotes. The quotes will change at a predetermined interval, and custom CSS styles and jQuery animations have been added to give the project a bit of custom flair. Font and button font color are set dynamically to white or black depending on the shade of the random background color, and the button is shaded to match. I use Bootstrap to make the app responsive, and have included a mobile image below.",
+            "description": [
+                "The Random Quote Generator is a basic display of JavaScript syntax and data structures that utilizes a preformatted HTML template with CSS to render a random quote from a provided array of quotes. The quotes will change at a predetermined interval, and custom CSS styles and jQuery animations have been added to give the project a bit of custom flair.",
+                "Font and button font color are set dynamically to white or black depending on the shade of the random background color, and the button is shaded to match. I use Bootstrap to make the app responsive, and have included a mobile image below."
+            ],
             "technologies": [
                 "HyperTextMarkupLanguage (HTML)",
                 "Cascading Style Sheets (CSS)",
@@ -22,7 +25,10 @@
         {
             "id": 1,
             "project_name": "Dynamic List Pagination/Filtering",
-            "description": "Long lists don't make for a good user experience. In this project, I enhanced the usability of a web page that is displaying too much information at once. Using only plain vanilla JavaScript, I added a popular web development technique known as 'pagination.' All improvements adhere to 'progressive enhancement'. This means that the page is not dependent on the JavaScript added, and all functionality is present to the user if JavaScript is disabled in their browser. The solution is dynamic, and works with a list of any number of students. As a bonus, a search input field is dynamically added, giving the user the ability to filter students by name. Pagination dynamically modifies the number of appended links dependent upon the number of pages needed to show the results. Finally, custom CSS rules have been added to give the project a personal flair.",
+            "description": [
+                "Long lists don't make for a good user experience. In this project, I enhanced the usability of a web page that is displaying too much information at once. Using only plain vanilla JavaScript, I added a popular web development technique known as 'pagination.' All improvements adhere to 'progressive enhancement.' This means that the page is not dependent on the JavaScript added, and all functionality is present to the user if JavaScript is disabled in their browser. The solution is dynamic, and works with a list of any number of students.",
+                "As a bonus, a search input field is dynamically added, giving the user the ability to filter students by name. Pagination dynamically modifies the number of appended links dependent upon the number of pages needed to show the results. Finally, custom CSS rules have been added to give the project a personal flair."
+            ],
             "technologies": [
                 "HyperTextMarkupLanguage (HTML)",
                 "Cascading Style Sheets (CSS)",
@@ -38,8 +44,11 @@
         },
         {
             "id": 2,
-            "project_name": "jQuery Form w/ Regex Validation",
-            "description": "",
+            "project_name": "Form w/ Regex Validation",
+            "description": [
+                "The ability to create custom, dynamic forms with proper validation techniques is essential to any Full Stack JavaScript developer. This project utilizes jQuery to create a prototype for a conference sign-up application.",
+                "Fields appear dynamically based on user selection. The use of regular expressions to validate each field generates informative errors to guide the user."
+            ],
             "technologies": [
                 "HyperTextMarkupLanguage (HTML)",
                 "Cascading Style Sheets (CSS)",
@@ -93,7 +102,11 @@
         {
             "id": 5,
             "project_name": "My Websites",
-            "description": "",
+            "description": [
+                "I have been providing website design and hosting services as a subservice of my computer repair business for almost 10 years. In that time, I have learned a lot about what it takes not only to design a Google-friendly website, but to maintain it over time.",
+                "My development path has taken me from Joomla, back in the days before WordPress became King, to a minimalist, Bootstrap based phase and then into Wordpress SEO and performance optimization.",
+                "For a closer look, please see the Portfolio page of my business website via the Live Demo button."
+            ],
             "technologies": [
                 "Apache",
                 "MySQL",
@@ -106,7 +119,8 @@
                 "Website Performance Optimization",
                 "Cascading Style Sheets (CSS)",
                 "JavaScript (JS)",
-                "jQuery JavaScript Library (jQuery)"
+                "jQuery JavaScript Library (jQuery)",
+                "Bootstrap (B)"
             ],
             "live_link": "http://webdesign.computersolution.tech/",
             "github_link": "hhttp://www.computersolution.tech/",
