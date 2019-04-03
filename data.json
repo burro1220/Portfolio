@@ -66,7 +66,10 @@
         {
             "id": 3,
             "project_name": "Phrase Hunter Interactive Game",
-            "description": "",
+            "description": [
+                "This project utilizes an understanding of JavaScript and Object-Oriented Programming (OOP) to build a word guessing game from scratch. Learning to describe real-world processes using objects to create dynamic, reusable pieces of code is intriguing to me. Once a developer begins to understand that anything can be an object, the sky becomes the limit.",
+                "The combined use of classes, properties and methods bring the game to life, along with some custom CSS stylings by yours truly."
+            ],
             "technologies": [
                 "HyperTextMarkupLanguage (HTML)",
                 "Cascading Style Sheets (CSS)",
@@ -84,7 +87,10 @@
         {
             "id": 4,
             "project_name": "Random User Fetch Application",
-            "description": "",
+            "description": [
+                "To me, the power to communicate granularly with APIs is one of the most intriguing powers of a developer. Simple interaction with vast and complex databases wields the ability to create powerful tools that display meaningful and relevant information quickly and easily.",
+                "This project utilizes the Random User Generator API to grab JSON data for 12 random 'employees' to display an employee directory, complete with on-click modal display."
+            ],
             "technologies": [
                 "HyperTextMarkupLanguage (HTML)",
                 "Cascading Style Sheets (CSS)",

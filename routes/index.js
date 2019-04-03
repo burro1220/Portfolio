@@ -23,7 +23,7 @@ router.get('/project/:id', (req, res) => {
     const images = res.locals.projects[id].image_urls;
     
     const templateData = { id, name, description, technologies, liveLink, gitRepo, images };
-    console.log(typeof templateData.id);
+    
     
     res.render('project', { templateData }); 
 });

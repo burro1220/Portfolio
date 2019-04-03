@@ -16,7 +16,6 @@ app.get('*', function(req, res, next) {
     let err = new Error(`${req.ip} tried to reach ${req.originalUrl}`); // Tells us which IP tried to reach a particular URL
     err.statusCode = 404;
     err.shouldRedirect = true; //New property on err so that our middleware will redirect
-    console.log(1)
     next(err);
   });
 
