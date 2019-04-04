@@ -6,3 +6,4 @@
 # 4) added a footer
 # 5) created a customized error.pug
 # 6) added on-hover css animation to projects page
+# 7) added favicon.ico and middleware to serve
