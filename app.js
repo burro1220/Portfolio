@@ -36,6 +36,8 @@ app.get('*', function(req, res, next) {
     }
   });
 
-app.listen(3000, () => {
-    console.log('The application is running on localhost:3000!')
-});
+  let port = process.env.PORT;
+  if (port == null || port == "") {
+    port = 8000;
+  }
+  app.listen(port);
